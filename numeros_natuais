@@ -1,0 +1,28 @@
+# 
+# numeros naturais divisivel por três
+#
+
+n = float (input("digite o valor inicial:"))
+
+# Solicite o valor final do intervalo
+
+fim = int(input("digite o valor final:"))
+
+# encontre o proximo numero multiplo por 3
+
+if inicio %3 == 0:  
+
+    multiplo = inicio + ( 3 - inicio % 3 ) 
+
+# Percorra e imprima os multiplos de 3 no intervalo
+
+    numero = primeiro_multiplo
+while numero <= fim:
+    print(numero)
+    numero += 3
+    
+print("o valor do intervalo é:")
+
+
+
+
